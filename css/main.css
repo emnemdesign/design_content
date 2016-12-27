@@ -13,6 +13,8 @@ box-sizing: border-box;
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
 text-align: center;
+background-image: url("../img/sayagata-400px.png");
+background-position: center center;
 }
 
 *, *:before, *:after {
@@ -24,7 +26,6 @@ box-sizing: inherit;
 	height: 360px;
 	position: fixed;
 	top: 0;
-	background-color: #00adf0;
 }
 
 
@@ -180,6 +181,7 @@ img {
 		}
 	.main {
 		width: 100%;
+		height: 100%;
 	 }
 	 img {
 	 	width: 30%;
